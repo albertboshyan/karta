@@ -71,7 +71,7 @@ function init() {
     }
 
     $.ajax({
-        url: "data.json"
+        url: "https://albertboshyan.github.io/karta/data.json"
     }).done(function (data) {
         objectManager.add(data);
     });
